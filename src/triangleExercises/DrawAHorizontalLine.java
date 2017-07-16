@@ -1,6 +1,8 @@
+package triangleExercises;
+
 import java.util.Scanner;
 
-public class DrawAVerticalLine {
+public class DrawAHorizontalLine {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入n的值：");
@@ -8,9 +10,8 @@ public class DrawAVerticalLine {
         int i = 0;
         while (i < n) {
             i++;
-            System.out.println("*");
+            System.out.print("*");
         }
 
     }
-
 }
